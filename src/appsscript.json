@@ -1,0 +1,24 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "oauthScopes": [
+      "https://www.googleapis.com/auth/adexchange.buyer",
+      "https://www.googleapis.com/auth/realtime-bidding",
+      "https://www.googleapis.com/auth/script.external_request",
+      "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "RTB Troubleshooting",
+    "logoUrl": "https://www.gstatic.com/authorizedbuyers/logo_authorizedbuyers_2x.png",
+    "company": "gPS Team",
+    "addOnUrl": "https://developers.google.com/authorized-buyers/apis/guides/v2/rtb-troubleshooting",
+    "supportUrl": "https://developers.google.com/authorized-buyers/apis/guides/v2/rtb-troubleshooting",
+    "description": "If you have an Authorized Buyers or Open Bidding account, you can use this connector to retrieve data from the RTB Troubleshooting API and visualize it in Data Studio.",
+    "shortDescription": "Connect to RTB troubleshooting data."
+  },
+  "urlFetchWhitelist": [
+    "https://adexchangebuyer.googleapis.com/v2beta1",
+    "https://realtimebidding.googleapis.com/v1",
+    "https://storage.googleapis.com/adx-rtb-dictionaries/"
+  ]
+}
